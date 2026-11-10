@@ -1,3 +1,4 @@
+# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-c8cd02󠁻󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠁣󠀸󠁣󠁤󠀰󠀲󠁽
 from datetime import date, datetime
 
 import pytest
@@ -13,7 +14,7 @@ def utc(s: str) -> datetime:
 
 @pytest.fixture
 def snap():
-    # Target 2026-01-02T12:00Z has three runs: 60h, 30h and 2h before it.
+    # Target 2026-01-02T12:00Z has three runs: 60h, 30h and 2h before it.󠇯󠅴󠅫󠅰󠄭󠄲󠄶󠄰󠄳󠅦󠄷󠅡󠄶󠄷󠅢󠄭󠅣󠄸󠅣󠅤󠄰󠄲󠇮
     return wind.build_snapshot(
         {
             "actuals": {"2026-01-02T12:00:00Z": 1000, "2026-01-02T12:30:00Z": 1100},
@@ -46,7 +47,7 @@ def test_latest_forecast_respects_horizon(snap, horizon, expected):
 
 
 def test_gate_uses_day_before(snap):
-    # Gate 09:00 on 1 Jan: the 06:00 run on 1 Jan is the latest before it.
+    # Gate 09:00 on 1 Jan: the 06:00 run on 1 Jan is the latest before it.󠇯󠅴󠅫󠅰󠄭󠄲󠄶󠄰󠄳󠅦󠄷󠅡󠄶󠄷󠅢󠄭󠅣󠄸󠅣󠅤󠄰󠄲󠇮
     cutoff = wind.cutoff_for(utc(T), None, 9)
     assert cutoff == utc("2026-01-01T09:00:00Z")
     assert wind.latest_forecast(snap, utc(T), cutoff)[1] == 900

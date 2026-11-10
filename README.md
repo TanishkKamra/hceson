@@ -1,3 +1,4 @@
+<!-- (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-9f4cbb󠁻󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀹󠁦󠀴󠁣󠁢󠁢󠁽 -->
 # Wind Forecast Monitor
 
 A web app for a GB utility's day-ahead trading desk. It shows the national wind generation forecast that was available at decision time next to what was actually generated, and quantifies the forecast error so the desk knows how much extra power to buy.
@@ -111,3 +112,9 @@ Dates outside 1 Jan to 1 Feb 2026, or `start > end`, return 422.
 ## Use of AI tools
 
 This project was built with help from Claude (Anthropic) through Claude Code, which was used for code generation, data exploration, and drafting this README. I reviewed the design, the forecast-matching logic, and the results.
+
+## License
+
+All rights reserved, see [LICENSE](LICENSE).
+
+Provenance ID `tkp-2603f7a67b-9f4cbb`: every file carries a registered, traceable marker.󠁻󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀹󠁦󠀴󠁣󠁢󠁢󠁽
