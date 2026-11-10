@@ -1,4 +1,4 @@
-# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-859654󠀁󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀸󠀵󠀹󠀶󠀵󠀴󠁿
+# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-859654󠁻󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀸󠀵󠀹󠀶󠀵󠀴󠁽
 """Wind forecast vs actual analysis. Pure functions over an in-memory snapshot."""
 
 import gzip

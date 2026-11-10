@@ -1,4 +1,4 @@
-# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-41a22c󠀁󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀴󠀱󠁡󠀲󠀲󠁣󠁿
+# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-41a22c󠁻󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀴󠀱󠁡󠀲󠀲󠁣󠁽
 """Download the January 2026 wind snapshot from Elexon BMRS into backend/data/.
 
 January 2026 is history, so the app serves a committed snapshot instead of calling

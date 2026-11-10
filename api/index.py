@@ -1,4 +1,4 @@
-# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-725fbf󠀁󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀷󠀲󠀵󠁦󠁢󠁦󠁿
+# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-725fbf󠁻󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀷󠀲󠀵󠁦󠁢󠁦󠁽
 """Vercel serverless entry point: exposes the FastAPI app from backend/."""
 
 import sys
