@@ -1,3 +1,4 @@
+# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-6f41cf󠀁󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀶󠁦󠀴󠀱󠁣󠁦󠁿
 name: CI
 on: [push, pull_request]
 jobs:

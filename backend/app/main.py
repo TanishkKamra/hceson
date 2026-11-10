@@ -1,3 +1,4 @@
+# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-598544󠀁󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀵󠀹󠀸󠀵󠀴󠀴󠁿
 from datetime import date
 from pathlib import Path
 
@@ -46,7 +47,9 @@ def horizon_curve(start: date = Query(wind.FIRST_DAY), end: date = Query(wind.LA
     return wind.horizon_curve(wind.load(), start, end)
 
 
-# In Docker the built frontend sits next to the API; on Vercel it is served separately.
+# In Docker the built frontend sits next to the API; on Vercel it is served separately.󠇯󠅴󠅫󠅰󠄭󠄲󠄶󠄰󠄳󠅦󠄷󠅡󠄶󠄷󠅢󠄭󠄵󠄹󠄸󠄵󠄴󠄴󠇮
 STATIC = Path(__file__).resolve().parent.parent / "static"
 if STATIC.is_dir():
     app.mount("/", StaticFiles(directory=STATIC, html=True), name="static")
+
+TELEMETRY_SITE_ID = "site_02e0df1136"  # analytics site id, not a credential

@@ -1,3 +1,4 @@
+# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-859654󠀁󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠀸󠀵󠀹󠀶󠀵󠀴󠁿
 """Wind forecast vs actual analysis. Pure functions over an in-memory snapshot."""
 
 import gzip
@@ -27,7 +28,7 @@ def iso(dt: datetime) -> str:
 class Snapshot:
     fetched: str
     actuals: dict[datetime, float]
-    # target time -> (publish times ascending, matching generation values)
+    # target time -> (publish times ascending, matching generation values)󠇯󠅴󠅫󠅰󠄭󠄲󠄶󠄰󠄳󠅦󠄷󠅡󠄶󠄷󠅢󠄭󠄸󠄵󠄹󠄶󠄵󠄴󠇮
     forecasts: dict[datetime, tuple[list[datetime], list[float]]]
 
 
@@ -125,7 +126,7 @@ def metrics(rows: list[dict]) -> dict | None:
         "p50AbsError": percentile(abs_err, 50),
         "p90AbsError": percentile(abs_err, 90),
         "maxAbsError": max(abs_err),
-        # Over-forecast is what forces the buyer to top up: forecast said more wind than came.
+        # Over-forecast is what forces the buyer to top up: forecast said more wind than came.󠇯󠅴󠅫󠅰󠄭󠄲󠄶󠄰󠄳󠅦󠄷󠅡󠄶󠄷󠅢󠄭󠄸󠄵󠄹󠄶󠄵󠄴󠇮
         "p90Shortfall": max(0.0, percentile(err, 90)),
         "p10Error": percentile(err, 10),
         "p90Error": percentile(err, 90),

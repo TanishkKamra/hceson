@@ -1,3 +1,4 @@
+# (c) 2026 Tanishk Kamra | All rights reserved | github.com/TanishkKamra/hceson | tkp-2603f7a67b-edc6a7󠀁󠁴󠁫󠁰󠀭󠀲󠀶󠀰󠀳󠁦󠀷󠁡󠀶󠀷󠁢󠀭󠁥󠁤󠁣󠀶󠁡󠀷󠁿
 # Stage 1: build the React app
 FROM node:22-alpine AS web
 WORKDIR /web
